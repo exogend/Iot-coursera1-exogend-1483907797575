@@ -3,9 +3,11 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: Iot-coursera1-exogend
-  host: Iot-coursera1-exogend
+  name: rasp-iot-exogend-app1
+  host: rasp-iot-exogend-app1
   disk_quota: 1024M
   services:
-  - Iot-coursera1-exogend-cloudantNoSQLDB
-  - Iot-coursera1-exogend-iotf-service
+  -rasp-iot-exogend-app1-cloudantNoSQLDB
+  -rasp-iot-exogend-app1-iotf-service
+  #- Iot-coursera1-exogend-cloudantNoSQLDB
+  #- Iot-coursera1-exogend-iotf-service
